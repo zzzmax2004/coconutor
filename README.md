@@ -104,3 +104,17 @@ Coconuter uses a custom visual style for its buildings, map, and game interface.
 ## Repository Notes
 
 This repository contains a web game build. Some generated files may come from the game engine export process, so the source structure may differ from a hand-written web application.
+
+The Firebase configuration in the client is public web-app configuration. Production deployments should restrict authorized domains and API usage in Firebase and Google Cloud Console, and must never commit service-account credentials.
+
+## My Contributions
+
+Shaochieh Huang's commits cover the lobby login and sign-up flow, Firebase-backed scoreboard, sound and music integration, round and end-scene behavior, and Firebase deployment setup. The full Git history is retained so each teammate's work remains attributable.
+
+## Project Materials
+
+- [Final presentation](docs/final-presentation.pptx)
+- [Media gallery](docs/README.md)
+- [Original team repository](https://github.com/JustinShih0918/coconutor)
+
+This repository preserves a team project. Third-party art, fonts, audio, and libraries remain subject to their original licenses.
